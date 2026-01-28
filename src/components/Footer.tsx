@@ -12,14 +12,14 @@ const Footer: React.FC = () => {
                 <div>
                     <h3 style={{ color: '#FFFFFF', marginBottom: '1.5rem' }}>Contact Us</h3>
                     <p>📱 <a href="https://wa.me/971562050833" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', textDecoration: 'none' }}>+971 56 205 0833</a></p>
-                    <p>✉️ hello@natureuniversalyoga.com</p>
+                    <p>✉️ Future@universalyoga.com</p>
                     <p>🕒 Daily 7AM - 10PM</p>
                 </div>
                 <div>
                     <h3 style={{ color: '#FFFFFF', marginBottom: '1.5rem' }}>Follow Us</h3>
                     <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
                         <a
-                            href="https://www.instagram.com/natureuniversalyoga"
+                            href="https://www.instagram.com/natureuniversalyogacenter?igsh=YjB0MHd5ZXloNjJu&utm_source=qr"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: '#FFFFFF', fontSize: '24px', transition: 'color 0.3s' }}
@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
                             </svg>
                         </a>
                         <a
-                            href="https://www.facebook.com/natureuniversalyoga"
+                            href="https://www.facebook.com/share/1F1Mvdooio/?mibextid=wwXIfr"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: '#FFFFFF', fontSize: '24px', transition: 'color 0.3s' }}

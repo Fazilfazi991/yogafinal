@@ -11,12 +11,12 @@ const HomePage: React.FC = () => {
     return (
         <>
             <Hero />
-            <About />
-            <Offerings />
-            <QuoteSection />
-            <ProductsSection />
-            <Testimonials />
-            <Promo />
+            <div className="animate-on-scroll"><About /></div>
+            <div className="animate-on-scroll"><Offerings /></div>
+            <div className="animate-on-scroll"><QuoteSection /></div>
+            <div className="animate-on-scroll"><ProductsSection /></div>
+            <div className="animate-on-scroll"><Testimonials /></div>
+            <div className="animate-on-scroll"><Promo /></div>
         </>
     );
 };

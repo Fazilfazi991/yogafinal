@@ -7,7 +7,7 @@ const Header: React.FC = () => {
             <div className="container header-container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
                 <Link to="/" style={{ textDecoration: 'none' }}>
                     <div className="logo">
-                        <img src="/logo-new.png" alt="Nature Universal Logo" style={{ height: '50px', width: 'auto' }} />
+                        <img src="/logo-new.png" alt="Nature Universal Logo" style={{ height: '113px', width: 'auto' }} />
                     </div>
                 </Link>
 

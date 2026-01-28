@@ -96,7 +96,7 @@ const ContactPage: React.FC = () => {
                                     <div>
                                         <h3 style={{ fontSize: '20px', marginBottom: '10px', color: 'var(--text-primary)' }}>Email Us</h3>
                                         <p style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
-                                            hello@natureuniversalyoga.com
+                                            Future@universalyoga.com
                                         </p>
                                     </div>
                                 </div>

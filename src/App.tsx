@@ -5,6 +5,7 @@ import './index.css';
 // Components
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ScrollObserver from './components/ScrollObserver';
 
 // Pages
 import HomePage from './pages/HomePage';
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollObserver />
       <div className="app">
         <Header />
         <main>
