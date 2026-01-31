@@ -8,45 +8,20 @@ const BreathworkPage: React.FC = () => {
     return (
         <div className="breathwork-page">
             {/* Hero Section */}
-            <section style={{
+            <section className="page-hero" style={{
                 backgroundImage: 'url(/breathwork-hero.png)',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
                 height: '80vh',
-                minHeight: '600px',
-                display: 'flex',
-                alignItems: 'center',
-                textAlign: 'left',
-                color: 'white',
-                position: 'relative'
+                textAlign: 'left'
             }}>
-                <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    right: 0,
-                    bottom: 0,
-                    backgroundColor: 'rgba(0, 0, 0, 0.3)',
-                    zIndex: 1
-                }}></div>
-                <div className="container" style={{ position: 'relative', zIndex: 2 }}>
-                    <h1 style={{
-                        fontFamily: 'var(--font-primary)',
-                        fontSize: '48px',
-                        marginBottom: '24px',
-                        fontWeight: 700,
-                        display: 'none'
-                    }}>
+                <div className="page-hero-overlay" style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)' }}></div>
+                <div className="container page-hero-content" style={{ textAlign: 'left' }}>
+                    <h1 className="page-hero-title" style={{ display: 'none' }}>
                         Pranayama (Breathwork)
                     </h1>
-                    <p style={{
-                        fontFamily: 'var(--font-primary)',
+                    <p className="page-hero-quote" style={{
                         fontSize: '42px',
-                        fontStyle: 'italic',
-                        maxWidth: '800px',
-                        lineHeight: '1.3',
-                        opacity: 1,
-                        textShadow: '0 2px 4px rgba(0,0,0,0.5)'
+                        marginLeft: 0,
+                        lineHeight: '1.3'
                     }}>
                         “Controlling the timing, duration, and frequency of every breath”
                     </p>

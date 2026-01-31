@@ -27,44 +27,13 @@ const ContactPage: React.FC = () => {
             {/* Hero Section */}
             {/* Hero Section */}
             {/* Hero Section */}
-            <section style={{
-                backgroundImage: 'url(/contact-hero.png)',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                height: '60vh',
-                minHeight: '500px',
-                display: 'flex',
-                alignItems: 'center',
-                textAlign: 'center',
-                color: 'white',
-                position: 'relative'
-            }}>
-                <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    right: 0,
-                    bottom: 0,
-                    backgroundColor: 'rgba(0, 0, 0, 0.4)',
-                    zIndex: 1
-                }}></div>
-                <div className="container" style={{ position: 'relative', zIndex: 2 }}>
-                    <h1 style={{
-                        fontFamily: 'var(--font-primary)',
-                        fontSize: '56px',
-                        marginBottom: '24px',
-                        textShadow: '0 2px 4px rgba(0,0,0,0.3)'
-                    }}>
+            <section className="page-hero" style={{ backgroundImage: 'url(/contact-hero.png)' }}>
+                <div className="page-hero-overlay"></div>
+                <div className="container page-hero-content">
+                    <h1 className="page-hero-title">
                         Contact Us
                     </h1>
-                    <p style={{
-                        fontFamily: 'var(--font-secondary)',
-                        fontSize: '24px',
-                        maxWidth: '800px',
-                        margin: '0 auto',
-                        opacity: 1,
-                        textShadow: '0 1px 2px rgba(0,0,0,0.3)'
-                    }}>
+                    <p className="page-hero-subtitle">
                         We'd love to hear from you. Reach out for bookings, inquiries, or just to say hello.
                     </p>
                 </div>
