@@ -9,43 +9,12 @@ const ClassesPage: React.FC = () => {
         <div className="classes-page">
             {/* Hero Section */}
             {/* Hero Section */}
-            <section style={{
-                backgroundImage: 'url(/classes-hero.png)',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                height: '60vh',
-                minHeight: '500px',
-                display: 'flex',
-                alignItems: 'center',
-                textAlign: 'center',
-                color: 'white',
-                position: 'relative'
-            }}>
-                <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    right: 0,
-                    bottom: 0,
-                    backgroundColor: 'rgba(0, 0, 0, 0.4)',
-                    zIndex: 1
-                }}></div>
-                <div className="container" style={{ position: 'relative', zIndex: 2 }}>
-                    <h1 style={{
-                        fontFamily: 'var(--font-primary)',
-                        fontSize: '56px',
-                        fontWeight: 700,
-                        marginBottom: '20px',
-                        textShadow: '0 2px 4px rgba(0,0,0,0.3)'
-                    }}>Our Yoga Classes</h1>
-                    <p style={{
-                        fontFamily: 'var(--font-secondary)',
-                        fontSize: '24px',
-                        maxWidth: '800px',
-                        margin: '0 auto',
-                        opacity: 1,
-                        textShadow: '0 1px 2px rgba(0,0,0,0.3)'
-                    }}>
+            {/* Hero Section */}
+            <section className="page-hero" style={{ backgroundImage: 'url(/classes-hero.png)' }}>
+                <div className="page-hero-overlay"></div>
+                <div className="container page-hero-content">
+                    <h1 className="page-hero-title">Our Yoga Classes</h1>
+                    <p className="page-hero-subtitle">
                         Discover the perfect yoga practice for your body, mind, and soul. From gentle beginnings to advanced flows, we have something for everyone.
                     </p>
                 </div>
