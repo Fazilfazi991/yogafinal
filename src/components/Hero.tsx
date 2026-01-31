@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
             alignItems: 'center',
             justifyContent: 'center',
             textAlign: 'center',
-            backgroundImage: 'url(/hero-background.png)',
+            backgroundImage: 'url(/home-hero.png)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',

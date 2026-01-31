@@ -5,26 +5,44 @@ const TeamPage: React.FC = () => {
         <div className="team-page">
             {/* Hero Section */}
             {/* Hero Section */}
+            {/* Hero Section */}
             <section style={{
-                background: 'linear-gradient(135deg, #355E4B 0%, #4A7C59 100%)',
-                padding: '80px 0',
+                backgroundImage: 'url(/team-hero.png)',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                height: '60vh',
+                minHeight: '500px',
+                display: 'flex',
+                alignItems: 'center',
                 textAlign: 'center',
-                color: 'white'
+                color: 'white',
+                position: 'relative'
             }}>
-                <div className="container">
+                <div style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    backgroundColor: 'rgba(0, 0, 0, 0.4)',
+                    zIndex: 1
+                }}></div>
+                <div className="container" style={{ position: 'relative', zIndex: 2 }}>
                     <h1 style={{
                         fontFamily: 'var(--font-primary)',
-                        fontSize: '48px',
-                        marginBottom: '24px'
+                        fontSize: '56px',
+                        marginBottom: '24px',
+                        textShadow: '0 2px 4px rgba(0,0,0,0.3)'
                     }}>
                         Our Team
                     </h1>
                     <p style={{
                         fontFamily: 'var(--font-secondary)',
-                        fontSize: '18px',
-                        maxWidth: '600px',
+                        fontSize: '24px',
+                        maxWidth: '800px',
                         margin: '0 auto',
-                        opacity: 0.95
+                        opacity: 1,
+                        textShadow: '0 1px 2px rgba(0,0,0,0.3)'
                     }}>
                         Meet the dedicated instructors guiding you on your path to wellness.
                     </p>
