@@ -8,11 +8,14 @@ import Footer from './components/Footer';
 import ScrollObserver from './components/ScrollObserver';
 
 // Pages
+// Pages
 import HomePage from './pages/HomePage';
 import ClassesPage from './pages/ClassesPage';
 import ClassDetailPage from './pages/ClassDetailPage';
 import MindPage from './pages/MindPage';
 import MindPracticeDetailPage from './pages/MindPracticeDetailPage';
+import MeditationPage from './pages/MeditationPage';
+import BreathworkPage from './pages/BreathworkPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import TeamPage from './pages/TeamPage';
@@ -33,6 +36,8 @@ function App() {
             <Route path="/classes" element={<ClassesPage />} />
             <Route path="/classes/:id" element={<ClassDetailPage />} />
             <Route path="/mind" element={<MindPage />} />
+            <Route path="/mind/meditation" element={<MeditationPage />} />
+            <Route path="/mind/breathwork" element={<BreathworkPage />} />
             <Route path="/mind/:id" element={<MindPracticeDetailPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />

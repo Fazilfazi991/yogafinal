@@ -1,13 +1,8 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const MindPage: React.FC = () => {
-
-    const scrollToSection = (id: string) => {
-        const element = document.getElementById(id);
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
+    const navigate = useNavigate();
 
     return (
         <div className="mind-page">
@@ -51,7 +46,7 @@ const MindPage: React.FC = () => {
                     </p>
                     <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
                         <button
-                            onClick={() => scrollToSection('meditation')}
+                            onClick={() => navigate('/mind/meditation')}
                             className="btn"
                             style={{
                                 minWidth: '200px',
@@ -63,7 +58,7 @@ const MindPage: React.FC = () => {
                             Meditation
                         </button>
                         <button
-                            onClick={() => scrollToSection('breathwork')}
+                            onClick={() => navigate('/mind/breathwork')}
                             className="btn"
                             style={{
                                 minWidth: '200px',
@@ -78,109 +73,35 @@ const MindPage: React.FC = () => {
                 </div>
             </section>
 
-            {/* Meditation Section */}
-            <section id="meditation" style={{ padding: '80px 0' }}>
-                <div className="container">
-                    <div style={{ textAlign: 'center', marginBottom: '60px', maxWidth: '900px', margin: '0 auto 60px' }}>
-                        <h3 style={{
-                            fontFamily: 'var(--font-primary)',
-                            fontSize: '32px',
-                            fontStyle: 'italic',
-                            color: 'var(--accent-dark)',
-                            marginBottom: '40px',
-                            fontWeight: 400
-                        }}>
-                            "Art of connecting into your consciousness to merge into the super conciousness"
-                        </h3>
-
-                        <h2 style={{
-                            fontFamily: 'var(--font-primary)',
-                            fontSize: '42px',
-                            color: 'var(--accent-dark)',
-                            marginBottom: '24px',
-                            fontWeight: 700
-                        }}>
-                            Meditation
-                        </h2>
-
-                        <p style={{
-                            fontFamily: 'var(--font-secondary)',
-                            fontSize: '18px',
-                            lineHeight: '1.8',
-                            color: 'var(--text-secondary)',
-                            marginBottom: '20px'
-                        }}>
-                            In today’s overstimulated world, we rarely experience silence and at Nature Universal Yoga we believe taking time to meditate can restore our balance, boost our energy and condition our minds to be more adaptive and responsive to the environments in which we now live and work.
-                        </p>
-                        <p style={{
-                            fontFamily: 'var(--font-secondary)',
-                            fontSize: '18px',
-                            lineHeight: '1.8',
-                            color: 'var(--text-secondary)'
-                        }}>
-                            When we meditate, we lower our stress levels, get to know our pain, connect better and improve our focus.
-                        </p>
-                    </div>
-
-                    {/* Decorative Separator */}
-                    <div style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        marginTop: '80px',
-                        opacity: 0.6
+            {/* Content Overview */}
+            <section className="section" style={{ padding: '80px 0' }}>
+                <div className="container" style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto' }}>
+                    <p style={{
+                        fontFamily: 'var(--font-secondary)',
+                        fontSize: '20px',
+                        lineHeight: '1.8',
+                        color: 'var(--text-secondary)',
+                        marginBottom: '40px'
                     }}>
-                        <div style={{ height: '1px', width: '100px', backgroundColor: 'var(--accent-dark)' }}></div>
-                        <span style={{ margin: '0 20px', color: 'var(--accent-dark)', fontSize: '24px' }}>❋</span>
-                        <div style={{ height: '1px', width: '100px', backgroundColor: 'var(--accent-dark)' }}></div>
+                        At Nature Universal Yoga, we believe that true wellness encompasses not just the body, but the mind and soul as well. Our specialized practices are designed to help you reconnect with your inner self.
+                    </p>
+                    <div style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+                        gap: '40px',
+                        marginTop: '60px'
+                    }}>
+                        <div onClick={() => navigate('/mind/meditation')} style={{ cursor: 'pointer', padding: '30px', backgroundColor: 'var(--bg-secondary)', borderRadius: '12px', transition: 'transform 0.3s' }} className="hover-card">
+                            <h3 style={{ color: 'var(--accent-dark)', marginBottom: '15px' }}>Meditation</h3>
+                            <p>Art of connecting into your consciousness to merge into the super conciousness.</p>
+                            <span style={{ display: 'inline-block', marginTop: '15px', color: 'var(--accent-green)', fontWeight: 600 }}>Learn More →</span>
+                        </div>
+                        <div onClick={() => navigate('/mind/breathwork')} style={{ cursor: 'pointer', padding: '30px', backgroundColor: 'var(--bg-secondary)', borderRadius: '12px', transition: 'transform 0.3s' }} className="hover-card">
+                            <h3 style={{ color: 'var(--accent-dark)', marginBottom: '15px' }}>Breathwork</h3>
+                            <p>Controlling the timing, duration, and frequency of every breath.</p>
+                            <span style={{ display: 'inline-block', marginTop: '15px', color: 'var(--accent-green)', fontWeight: 600 }}>Learn More →</span>
+                        </div>
                     </div>
-                </div>
-            </section>
-
-            {/* Breathwork Section */}
-            <section id="breathwork" style={{ padding: '80px 0', backgroundColor: 'var(--bg-secondary)' }}>
-                <div className="container">
-                    <div style={{ textAlign: 'center', marginBottom: '60px', maxWidth: '900px', margin: '0 auto 60px' }}>
-                        <h3 style={{
-                            fontFamily: 'var(--font-primary)',
-                            fontSize: '32px',
-                            fontStyle: 'italic',
-                            color: 'var(--accent-dark)',
-                            marginBottom: '40px',
-                            fontWeight: 400
-                        }}>
-                            "Controlling the timing, duration, and frequency of every breath"
-                        </h3>
-
-                        <h2 style={{
-                            fontFamily: 'var(--font-primary)',
-                            fontSize: '42px',
-                            color: 'var(--accent-dark)',
-                            marginBottom: '24px',
-                            fontWeight: 700
-                        }}>
-                            Pranayama (Breathwork)
-                        </h2>
-
-                        <p style={{
-                            fontFamily: 'var(--font-secondary)',
-                            fontSize: '18px',
-                            lineHeight: '1.8',
-                            color: 'var(--text-secondary)',
-                            marginBottom: '20px'
-                        }}>
-                            Pranayama is the ancient practice of controlling your breath. It involves the regulation of your breath to enhance the flow of prana, which is often described as vital life force or energy throughout the body.
-                        </p>
-                        <p style={{
-                            fontFamily: 'var(--font-secondary)',
-                            fontSize: '18px',
-                            lineHeight: '1.8',
-                            color: 'var(--text-secondary)'
-                        }}>
-                            In Pranayama, you control the timing, duration and frequency of every breath and hold. This can have a profound impact on both your physical and mental well-being.
-                        </p>
-                    </div>
-
                 </div>
             </section>
 
