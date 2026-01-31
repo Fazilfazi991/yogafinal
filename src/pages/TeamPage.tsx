@@ -73,14 +73,10 @@ const TeamPage: React.FC = () => {
                                 Sandhya Vijayadas
                             </h2>
                             <p style={{ fontSize: '18px', lineHeight: '1.8', color: 'var(--text-secondary)', marginBottom: '20px' }}>
-                                Nature Universal Yoga Centre is a wellness space founded by Sandhya Vijayadas, created from a deep personal journey in holistic healing and wellness. As a qualified Reiki Master and a practitioner trained in multiple therapeutic modalities, Sandhya’s passion for conscious living and inner balance led to the birth of this center.
+                                With over 15 years of experience in Hatha and Vinyasa yoga, Sandhya founded Nature Universal Yoga Center with a vision to bring holistic healing to the Dubai community. Her teaching style blends traditional wisdom with modern anatomical understanding, ensuring a safe and transformative practice for all.
                             </p>
-                            <p style={{ fontSize: '18px', lineHeight: '1.8', color: 'var(--text-secondary)', marginBottom: '20px' }}>
-                                Nature Universal Yoga Centre believes in the power of community, connection, and conscious growth. This space is dedicated to supporting and encouraging wellness practitioners, instructors, and individuals who seek a deeper connection with themselves through yoga and holistic practices.
-                            </p>
-                            <p style={{ fontSize: '18px', lineHeight: '1.8', color: 'var(--text-secondary)' }}>
-                                Nature Universal Yoga Centre would love to be a part of your growth journey.
-                                We invite you to come explore, experience, and evolve with us.
+                            <p style={{ fontSize: '18px', lineHeight: '1.8', color: 'var(--accent-dark)', fontStyle: 'italic', fontWeight: 500 }}>
+                                "Yoga is not just about flexibility of the body, but the flexibility of the mind. My mission is to help every student discover their own inner strength and peace."
                             </p>
                         </div>
                     </div>
