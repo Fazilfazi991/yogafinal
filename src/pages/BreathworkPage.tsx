@@ -9,30 +9,46 @@ const BreathworkPage: React.FC = () => {
         <div className="breathwork-page">
             {/* Hero Section */}
             <section style={{
-                background: 'linear-gradient(135deg, #4A7C59 0%, #2D5038 100%)', // Distinct gradient background
-                padding: '120px 0',
-                textAlign: 'center',
+                backgroundImage: 'url(/breathwork-hero.png)',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                height: '80vh',
+                minHeight: '600px',
+                display: 'flex',
+                alignItems: 'center',
+                textAlign: 'left',
                 color: 'white',
                 position: 'relative'
             }}>
+                <div style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                    zIndex: 1
+                }}></div>
                 <div className="container" style={{ position: 'relative', zIndex: 2 }}>
                     <h1 style={{
                         fontFamily: 'var(--font-primary)',
-                        fontSize: '56px',
+                        fontSize: '48px',
                         marginBottom: '24px',
-                        fontWeight: 700
+                        fontWeight: 700,
+                        display: 'none'
                     }}>
                         Pranayama (Breathwork)
                     </h1>
                     <p style={{
                         fontFamily: 'var(--font-primary)',
-                        fontSize: '24px',
+                        fontSize: '42px',
                         fontStyle: 'italic',
                         maxWidth: '800px',
-                        margin: '0 auto',
-                        opacity: 0.95
+                        lineHeight: '1.3',
+                        opacity: 1,
+                        textShadow: '0 2px 4px rgba(0,0,0,0.5)'
                     }}>
-                        "Controlling the timing, duration, and frequency of every breath"
+                        “Controlling the timing, duration, and frequency of every breath”
                     </p>
                 </div>
             </section>

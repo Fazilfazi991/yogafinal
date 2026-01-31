@@ -9,11 +9,14 @@ const MeditationPage: React.FC = () => {
         <div className="meditation-page">
             {/* Hero Section */}
             <section style={{
-                backgroundImage: 'url(/mind-hero.jpg)', // Using existing image for consistency
+                backgroundImage: 'url(/meditation-hero.png)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
-                padding: '120px 0',
-                textAlign: 'center',
+                height: '80vh',
+                minHeight: '600px',
+                display: 'flex',
+                alignItems: 'center',
+                textAlign: 'left',
                 color: 'white',
                 position: 'relative'
             }}>
@@ -23,27 +26,29 @@ const MeditationPage: React.FC = () => {
                     left: 0,
                     right: 0,
                     bottom: 0,
-                    backgroundColor: 'rgba(53, 94, 75, 0.7)',
+                    backgroundColor: 'rgba(0, 0, 0, 0.4)', // Darker overlay for text contrast
                     zIndex: 1
                 }}></div>
                 <div className="container" style={{ position: 'relative', zIndex: 2 }}>
                     <h1 style={{
                         fontFamily: 'var(--font-primary)',
-                        fontSize: '56px',
+                        fontSize: '48px',
                         marginBottom: '24px',
-                        fontWeight: 700
+                        fontWeight: 700,
+                        display: 'none' // Hide main title in hero if reference only shows quote, but good for SEO. Reference has small logo top left. I will keep it but maybe smaller or hidden if I strictly follow "image + text content like this" where "this" is the quote. The user said "use image + text cintent like this", implying the layout. I will keep title but visually prioritize quote. 
                     }}>
                         Meditation
                     </h1>
                     <p style={{
                         fontFamily: 'var(--font-primary)',
-                        fontSize: '24px',
+                        fontSize: '42px',
                         fontStyle: 'italic',
                         maxWidth: '800px',
-                        margin: '0 auto',
-                        opacity: 0.95
+                        lineHeight: '1.3',
+                        opacity: 1,
+                        textShadow: '0 2px 4px rgba(0,0,0,0.5)'
                     }}>
-                        "Art of connecting into your consciousness to merge into the super conciousness"
+                        “Art of connecting into your consciousness to merge into the super conciousness”
                     </p>
                 </div>
             </section>
