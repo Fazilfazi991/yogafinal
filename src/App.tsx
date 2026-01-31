@@ -46,7 +46,7 @@ function App() {
         </main>
         <Footer />
         <a
-          href="https://wa.me/971562050833"
+          href="https://wa.me/971503945490"
           target="_blank"
           rel="noopener noreferrer"
           style={{

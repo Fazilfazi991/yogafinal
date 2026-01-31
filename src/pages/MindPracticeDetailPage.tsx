@@ -77,7 +77,7 @@ const MindPracticeDetailPage: React.FC = () => {
                             </div>
                         </div>
                         <a
-                            href="https://wa.me/971562050833"
+                            href="https://wa.me/971503945490"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn"
@@ -194,7 +194,7 @@ const MindPracticeDetailPage: React.FC = () => {
                         Book your session today and start your journey to mindfulness.
                     </p>
                     <a
-                        href="https://wa.me/971562050833"
+                        href="https://wa.me/971503945490"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary"

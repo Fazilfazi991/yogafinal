@@ -71,7 +71,7 @@ const ContactPage: React.FC = () => {
                                     <div>
                                         <h3 style={{ fontSize: '20px', marginBottom: '10px', color: 'var(--text-primary)' }}>Call or WhatsApp</h3>
                                         <p style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
-                                            <a href="https://wa.me/971562050833" style={{ color: 'var(--accent-green)', textDecoration: 'none' }}>+971 56 205 0833</a>
+                                            <a href="https://wa.me/971503945490" style={{ color: 'var(--accent-green)', textDecoration: 'none' }}>+971 50 394 5490</a>
                                         </p>
                                     </div>
                                 </div>

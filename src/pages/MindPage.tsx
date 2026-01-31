@@ -65,7 +65,7 @@ const MindPage: React.FC = () => {
                         Join us for a session and discover the transformative power of mindfulness.
                     </p>
                     <a
-                        href="https://wa.me/971562050833"
+                        href="https://wa.me/971503945490"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn"

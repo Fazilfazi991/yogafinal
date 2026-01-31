@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
                 </div>
                 <div>
                     <h3 style={{ color: '#FFFFFF', marginBottom: '1.5rem' }}>Contact Us</h3>
-                    <p>📱 <a href="https://wa.me/971562050833" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', textDecoration: 'none' }}>+971 56 205 0833</a></p>
+                    <p>📱 <a href="https://wa.me/971503945490" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', textDecoration: 'none' }}>+971 50 394 5490</a></p>
                     <p>✉️ Future@universalyoga.com</p>
                     <p>🕒 Daily 7AM - 10PM</p>
                 </div>

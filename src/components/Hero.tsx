@@ -31,8 +31,8 @@ const Hero: React.FC = () => {
                     Dubai's Premier Holistic Yoga Sanctuary. Your Gateway to Mind, Body & Soul Harmony.
                 </p>
                 <div className="hero-buttons">
-                    <a href="https://wa.me/971562050833" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ textDecoration: 'none' }}>Claim 2 Trial Classes - AED 108</a>
-                    <a href="https://wa.me/971562050833" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ textDecoration: 'none', color: 'white' }}>View Classes</a>
+                    <a href="https://wa.me/971503945490" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ textDecoration: 'none' }}>Claim 2 Trial Classes - AED 108</a>
+                    <a href="https://wa.me/971503945490" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ textDecoration: 'none', color: 'white' }}>View Classes</a>
                 </div>
             </div>
         </section>

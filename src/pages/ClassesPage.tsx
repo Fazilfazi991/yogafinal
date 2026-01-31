@@ -175,7 +175,7 @@ const ClassesPage: React.FC = () => {
                         Book your first class today and experience the transformative power of yoga
                     </p>
                     <a
-                        href="https://wa.me/971562050833"
+                        href="https://wa.me/971503945490"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary"

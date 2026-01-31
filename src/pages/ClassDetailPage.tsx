@@ -70,7 +70,7 @@ const ClassDetailPage: React.FC = () => {
                             </div>
 
                             <a
-                                href="https://wa.me/971562050833"
+                                href="https://wa.me/971503945490"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{
@@ -236,7 +236,7 @@ const ClassDetailPage: React.FC = () => {
                         Experience the transformative benefits of yoga. Book your spot today and begin your journey to wellness.
                     </p>
                     <a
-                        href="https://wa.me/971562050833"
+                        href="https://wa.me/971503945490"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary"
