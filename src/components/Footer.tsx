@@ -5,9 +5,11 @@ const Footer: React.FC = () => {
         <footer className="section" style={{ backgroundColor: '#2C3E50', color: '#FFFFFF', padding: '60px 0' }}>
             <div className="container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '3rem' }}>
                 <div>
-                    <h3 style={{ color: '#FFFFFF', marginBottom: '1.5rem' }}>Nature Universal Yoga Center</h3>
-                    <p>F-29, The Market Mall, Green Community</p>
-                    <p>Dubai Investment Park-1, Dubai</p>
+                    <img src="/logo-new.png" alt="Nature Universal Yoga Center" style={{ height: '80px', width: 'auto', marginBottom: '1.5rem' }} />
+                    <h3 style={{ color: '#FFFFFF', marginBottom: '1rem' }}>Nature Universal Yoga Center</h3>
+                    <p style={{ lineHeight: '1.6', opacity: 0.9 }}>
+                        Your sanctuary for holistic healing and wellness. Join our global community for transformative yoga practices, accessible from anywhere.
+                    </p>
                 </div>
                 <div>
                     <h3 style={{ color: '#FFFFFF', marginBottom: '1.5rem' }}>Contact Us</h3>

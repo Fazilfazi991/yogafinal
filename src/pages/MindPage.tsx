@@ -9,9 +9,8 @@ const MindPage: React.FC = () => {
             {/* Hero Section */}
             {/* Hero Section */}
             <section className="page-hero" style={{
-                backgroundImage: 'url(/mind-hero-new.jpg)',
-                height: '70vh',
-                backgroundSize: '100% 100%'
+                backgroundImage: 'url(/mind-hero.png)',
+                height: '70vh'
             }}>
                 <div className="page-hero-overlay" style={{ backgroundColor: 'rgba(53, 94, 75, 0.4)' }}></div>
                 <div className="container page-hero-content">
