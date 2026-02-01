@@ -25,7 +25,7 @@ export const yogaClasses: YogaClass[] = [
             'Activates the body\'s natural healing tendencies',
             'Perfect foundation for beginners and deepening for advanced practitioners'
         ],
-        duration: '60-75 minutes',
+        duration: '45 minutes',
         level: 'All Levels',
         image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80',
         icon: '🧘‍♀️'
@@ -42,7 +42,7 @@ export const yogaClasses: YogaClass[] = [
             'Improves coordination and balance',
             'Creates a seamless flow between movement and breath'
         ],
-        duration: '60-75 minutes',
+        duration: '45 minutes',
         level: 'Intermediate to Advanced',
         image: 'https://images.unsplash.com/photo-1588286840104-8957b019727f?w=800&q=80',
         icon: '🌊'
@@ -59,7 +59,7 @@ export const yogaClasses: YogaClass[] = [
             'Teaches mindful breathing through discomfort',
             'Promotes deep relaxation and stress relief'
         ],
-        duration: '75-90 minutes',
+        duration: '45 minutes',
         level: 'All Levels',
         image: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80',
         icon: '🌙'
@@ -76,7 +76,7 @@ export const yogaClasses: YogaClass[] = [
             'Improves sleep quality and reduces insomnia',
             'Supports healing and recovery from illness or injury'
         ],
-        duration: '60-90 minutes',
+        duration: '45 minutes',
         level: 'All Levels',
         image: 'https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=800&q=80',
         icon: '💆‍♀️'
@@ -93,7 +93,7 @@ export const yogaClasses: YogaClass[] = [
             'Promotes detoxification through internal heat',
             'Develops mental resilience and determination'
         ],
-        duration: '60-75 minutes',
+        duration: '45 minutes',
         level: 'Intermediate to Advanced',
         image: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80',
         icon: '💪'
@@ -110,7 +110,7 @@ export const yogaClasses: YogaClass[] = [
             'Supports faster postpartum recovery',
             'Reduces anxiety and promotes mother-baby bonding'
         ],
-        duration: '60 minutes',
+        duration: '45 minutes',
         level: 'Beginner to Intermediate',
         image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80',
         icon: '🤰'
@@ -127,7 +127,7 @@ export const yogaClasses: YogaClass[] = [
             'Improves mood and emotional balance',
             'Enhances overall reproductive health and well-being'
         ],
-        duration: '60-75 minutes',
+        duration: '45 minutes',
         level: 'All Levels',
         image: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80',
         icon: '⚖️'
@@ -147,7 +147,7 @@ export const yogaClasses: YogaClass[] = [
             'Enhances creativity and imagination',
             'Establishes healthy movement habits early in life'
         ],
-        duration: '30-45 minutes',
+        duration: '45 minutes',
         level: 'Beginner',
         image: 'https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=80',
         icon: '🧒'
@@ -165,7 +165,7 @@ export const yogaClasses: YogaClass[] = [
             'Improves focus and academic performance',
             'Enhances social skills and peer relationships'
         ],
-        duration: '45-60 minutes',
+        duration: '45 minutes',
         level: 'Beginner to Intermediate',
         image: 'https://images.unsplash.com/photo-1599447421416-3414500d18a5?w=800&q=80',
         icon: '👦'
@@ -183,7 +183,7 @@ export const yogaClasses: YogaClass[] = [
             'Enhances athletic performance and prevents injuries',
             'Provides tools for lifelong mental wellness'
         ],
-        duration: '60 minutes',
+        duration: '45 minutes',
         level: 'All Levels',
         image: 'https://images.unsplash.com/photo-1599447421416-3414500d18a5?w=800&q=80',
         icon: '🎓'
@@ -201,7 +201,7 @@ export const yogaClasses: YogaClass[] = [
             'Builds trust through partner poses',
             'Fun and inclusive for all ages and abilities'
         ],
-        duration: '45-60 minutes',
+        duration: '45 minutes',
         level: 'All Levels',
         image: 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&q=80',
         icon: '👨‍👩‍👧‍👦'
@@ -220,7 +220,7 @@ export const yogaClasses: YogaClass[] = [
             'Develop confidence in your practice',
             'Create a strong foundation for advancement'
         ],
-        duration: '60 minutes',
+        duration: '45 minutes',
         level: 'Beginner',
         image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80',
         icon: '🌱'
@@ -237,7 +237,7 @@ export const yogaClasses: YogaClass[] = [
             'Calms the mind and nervous system',
             'Enhances overall sense of well-being and peace'
         ],
-        duration: '60-75 minutes',
+        duration: '45 minutes',
         level: 'All Levels',
         image: 'https://images.unsplash.com/photo-1545389336-cf090694435e?w=800&q=80',
         icon: '🕊️'
@@ -254,28 +254,12 @@ export const yogaClasses: YogaClass[] = [
             'Boosts metabolism and energy levels',
             'Improves muscular endurance and stamina'
         ],
-        duration: '60-75 minutes',
+        duration: '45 minutes',
         level: 'Intermediate to Advanced',
         image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80',
         icon: '🏋️‍♀️'
     },
-    {
-        id: 'flexibility-mobility',
-        title: 'Flexibility & Mobility Yoga',
-        category: 'special',
-        description: 'A focused practice designed to improve range of motion, increase flexibility, and enhance joint health through targeted stretching and mindful movement. This class systematically works through the entire body, releasing muscular tension, improving joint mobility, and helping you move with greater ease and freedom in daily life and athletic pursuits.',
-        benefits: [
-            'Significantly increases overall flexibility',
-            'Improves joint mobility and health',
-            'Reduces risk of injury in sports and daily activities',
-            'Enhances athletic and yoga performance',
-            'Relieves chronic muscle tension and stiffness'
-        ],
-        duration: '60 minutes',
-        level: 'All Levels',
-        image: 'https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?w=800&q=80',
-        icon: '🤸‍♀️'
-    },
+
     {
         id: 'sound-therapy',
         title: 'Sound Therapy & Meditation',
@@ -288,7 +272,7 @@ export const yogaClasses: YogaClass[] = [
             'Releases blocked energy and trauma',
             'Restores emotional balance and inner peace'
         ],
-        duration: '45-60 minutes',
+        duration: '45 minutes',
         level: 'All Levels',
         image: 'https://images.unsplash.com/photo-1602192509154-0b900ee1f851?w=800&q=80',
         icon: '🔔'

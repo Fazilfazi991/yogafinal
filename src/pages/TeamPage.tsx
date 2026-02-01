@@ -6,7 +6,7 @@ const TeamPage: React.FC = () => {
             {/* Hero Section */}
             {/* Hero Section */}
             {/* Hero Section */}
-            <section className="page-hero" style={{ backgroundImage: 'url(/team-hero.png)' }}>
+            <section className="page-hero" style={{ backgroundImage: 'url(/team-hero-new.png)' }}>
                 <div className="page-hero-overlay"></div>
                 <div className="container page-hero-content">
                     <h1 className="page-hero-title">
@@ -26,7 +26,7 @@ const TeamPage: React.FC = () => {
                             {/* Founder Image */}
                             <img
                                 src="/founder.jpg"
-                                alt="Sandhya Vijayadas - Founder"
+                                alt="Sandya Vijayadas - Founder"
                                 style={{
                                     width: '100%',
                                     height: '500px',
@@ -57,10 +57,10 @@ const TeamPage: React.FC = () => {
                                 color: 'var(--accent-dark)',
                                 marginBottom: '1.5rem'
                             }}>
-                                Sandhya Vijayadas
+                                Sandya Vijayadas
                             </h2>
                             <p style={{ fontSize: '18px', lineHeight: '1.8', color: 'var(--text-secondary)', marginBottom: '20px' }}>
-                                With over 15 years of experience in Hatha and Vinyasa yoga, Sandhya founded Nature Universal Yoga Center with a vision to bring holistic healing to the Dubai community. Her teaching style blends traditional wisdom with modern anatomical understanding, ensuring a safe and transformative practice for all.
+                                With over 15 years of experience in Hatha and Vinyasa yoga, Sandya founded Nature Universal Yoga Center with a vision to bring holistic healing to the Dubai community. Her teaching style blends traditional wisdom with modern anatomical understanding, ensuring a safe and transformative practice for all.
                             </p>
                             <p style={{ fontSize: '18px', lineHeight: '1.8', color: 'var(--accent-dark)', fontStyle: 'italic', fontWeight: 500 }}>
                                 "Yoga is not just about flexibility of the body, but the flexibility of the mind. My mission is to help every student discover their own inner strength and peace."
