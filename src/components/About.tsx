@@ -40,7 +40,7 @@ const About: React.FC = () => {
                 <div className="about-grid" style={{ marginBottom: 0 }}>
                     <div style={{ order: 1 }}> {/* On mobile this might need media query to swap order if we want image first, but auto-fit usually just wraps. 'order' needs flex/grid. With auto-fit minmax, the second child usually wraps below. To enforce "Image Top" on mobile for this row, we typically use flex-direction column-reverse or similar. For now, let's keep natural DOM order or simple grid. */}
                         <img
-                            src="/yoga-pose-2.png"
+                            src="/yoga-pose-2-new.png"
                             alt="Yoga pose 2"
                             style={{
                                 width: '100%',

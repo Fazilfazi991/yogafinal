@@ -30,9 +30,7 @@ const Hero: React.FC = () => {
                 <p style={{ fontSize: '20px', marginBottom: '2rem', maxWidth: '600px', marginInline: 'auto', color: '#FFFFFF', textShadow: '1px 1px 3px rgba(0,0,0,0.5)' }}>
                     Dubai's Premier Holistic Yoga Sanctuary. Your Gateway to Mind, Body & Soul Harmony.
                 </p>
-                <div className="hero-buttons">
-                    <a href="https://wa.me/971503945490" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ textDecoration: 'none' }}>Claim 2 Trial Classes - AED 108</a>
-                </div>
+
             </div>
         </section>
     );
