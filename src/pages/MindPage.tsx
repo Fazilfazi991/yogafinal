@@ -41,15 +41,25 @@ const MindPage: React.FC = () => {
                         gap: '40px',
                         marginTop: '60px'
                     }}>
-                        <div onClick={() => navigate('/mind/meditation')} style={{ cursor: 'pointer', padding: '30px', backgroundColor: 'var(--bg-secondary)', borderRadius: '12px', transition: 'transform 0.3s' }} className="hover-card">
-                            <h3 style={{ color: 'var(--accent-dark)', marginBottom: '15px' }}>Meditation</h3>
-                            <p>Art of connecting into your consciousness to merge into the super conciousness.</p>
-                            <span style={{ display: 'inline-block', marginTop: '15px', color: 'var(--accent-green)', fontWeight: 600 }}>Learn More →</span>
+                        <div onClick={() => navigate('/mind/meditation')} style={{ cursor: 'pointer', backgroundColor: 'var(--bg-secondary)', borderRadius: '12px', transition: 'transform 0.3s', overflow: 'hidden' }} className="hover-card">
+                            <div style={{ height: '240px', overflow: 'hidden' }}>
+                                <img src="/meditation-card.png" alt="Meditation" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            </div>
+                            <div style={{ padding: '30px' }}>
+                                <h3 style={{ color: 'var(--accent-dark)', marginBottom: '15px' }}>Meditation</h3>
+                                <p>Art of connecting into your consciousness to merge into the super conciousness.</p>
+                                <span style={{ display: 'inline-block', marginTop: '15px', color: 'var(--accent-green)', fontWeight: 600 }}>Learn More →</span>
+                            </div>
                         </div>
-                        <div onClick={() => navigate('/mind/breathwork')} style={{ cursor: 'pointer', padding: '30px', backgroundColor: 'var(--bg-secondary)', borderRadius: '12px', transition: 'transform 0.3s' }} className="hover-card">
-                            <h3 style={{ color: 'var(--accent-dark)', marginBottom: '15px' }}>Breathwork</h3>
-                            <p>Controlling the timing, duration, and frequency of every breath.</p>
-                            <span style={{ display: 'inline-block', marginTop: '15px', color: 'var(--accent-green)', fontWeight: 600 }}>Learn More →</span>
+                        <div onClick={() => navigate('/mind/breathwork')} style={{ cursor: 'pointer', backgroundColor: 'var(--bg-secondary)', borderRadius: '12px', transition: 'transform 0.3s', overflow: 'hidden' }} className="hover-card">
+                            <div style={{ height: '240px', overflow: 'hidden' }}>
+                                <img src="/breathwork-card.png" alt="Breathwork" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            </div>
+                            <div style={{ padding: '30px' }}>
+                                <h3 style={{ color: 'var(--accent-dark)', marginBottom: '15px' }}>Breathwork</h3>
+                                <p>Controlling the timing, duration, and frequency of every breath.</p>
+                                <span style={{ display: 'inline-block', marginTop: '15px', color: 'var(--accent-green)', fontWeight: 600 }}>Learn More →</span>
+                            </div>
                         </div>
                     </div>
                 </div>

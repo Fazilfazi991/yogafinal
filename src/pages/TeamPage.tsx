@@ -6,7 +6,7 @@ const TeamPage: React.FC = () => {
             {/* Hero Section */}
             {/* Hero Section */}
             {/* Hero Section */}
-            <section className="page-hero" style={{ backgroundImage: 'url(/team-hero-new.png)' }}>
+            <section className="page-hero" style={{ backgroundImage: 'url(/team-hero-new.png)', backgroundSize: '100% 100%' }}>
                 <div className="page-hero-overlay"></div>
                 <div className="container page-hero-content">
                     <h1 className="page-hero-title">

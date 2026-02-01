@@ -11,7 +11,7 @@ const Header: React.FC = () => {
                 {/* Logo Section (Left) */}
                 <Link to="/" style={{ textDecoration: 'none', zIndex: 102 }}>
                     <div className="logo">
-                        <img src="/logo-new.png" alt="Nature Universal Logo" style={{ height: '80px', width: 'auto' }} />
+                        <img src="/logo-new.png" alt="Nature Universal Logo" style={{ height: '120px', width: 'auto' }} />
                     </div>
                 </Link>
 
