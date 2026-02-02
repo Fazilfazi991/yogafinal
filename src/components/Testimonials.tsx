@@ -3,9 +3,9 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const Testimonials: React.FC = () => {
     const testimonials = [
-        { name: 'Sarah J.', text: "The most serene place to practice yoga in Dubai. The instructors are clearly very experienced and caring.", role: 'Regular Member' },
-        { name: 'Mohammed A.', text: "I started as a complete beginner with the trial package. Now I can't imagine my week without the Hatha sessions.", role: 'Beginner' },
-        { name: 'Elena R.', text: "The healing sessions have been transformative for my stress levels. Highly recommend the sound baths!", role: 'Wellness Enthusiast' },
+        { name: 'Rakhi Rahul', text: "The most serene place to practice yoga in Dubai. The instructors are clearly very experienced and caring.", role: 'Regular Member' },
+        { name: 'Sona V S', text: "I started as a complete beginner with the trial package. Now I can't imagine my week without the Hatha sessions.", role: 'Beginner' },
+        { name: 'Edna Carloise', text: "The healing sessions have been transformative for my stress levels. Highly recommend the sound baths!", role: 'Wellness Enthusiast' },
     ];
 
     const { ref, isVisible } = useScrollAnimation({ threshold: 0.2 });

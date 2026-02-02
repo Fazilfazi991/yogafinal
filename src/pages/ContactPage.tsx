@@ -83,7 +83,7 @@ const ContactPage: React.FC = () => {
                                     <div>
                                         <h3 style={{ fontSize: '20px', marginBottom: '10px', color: 'var(--text-primary)' }}>Email Us</h3>
                                         <p style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
-                                            Future@universalyoga.com
+                                            Future@universalyoga.ae
                                         </p>
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@ const ContactPage: React.FC = () => {
                                     <div>
                                         <h3 style={{ fontSize: '20px', marginBottom: '10px', color: 'var(--text-primary)' }}>Opening Hours</h3>
                                         <p style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
-                                            Daily: 7:00 AM - 10:00 PM
+                                            Daily: 5:30 AM - 10:00 PM
                                         </p>
                                     </div>
                                 </div>
