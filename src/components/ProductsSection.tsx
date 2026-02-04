@@ -36,7 +36,7 @@ const ProductsSection: React.FC = () => {
                             />
                             <div style={{ padding: '1.5rem', textAlign: 'center' }}>
                                 <h3 style={{ fontSize: '18px', marginBottom: '0.5rem', color: 'var(--text-primary)' }}>{product.name}</h3>
-                                <p style={{ color: 'var(--accent-green)', fontWeight: 'bold', fontSize: '16px' }}>{product.price}</p>
+
                                 <a
                                     href={`https://wa.me/971503945490?text=${encodeURIComponent(`Hello, I am interested in ${product.name}.`)}`}
                                     target="_blank"

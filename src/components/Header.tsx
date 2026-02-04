@@ -11,7 +11,7 @@ const Header: React.FC = () => {
                 {/* Logo Section (Left) */}
                 <Link to="/" style={{ textDecoration: 'none', zIndex: 102 }}>
                     <div className="logo">
-                        <img src="/logo-new.png" alt="Nature Universal Logo" style={{ height: '120px', width: 'auto' }} />
+                        <img src="/logo-new.png" alt="Nature Universal Logo" style={{ height: '180px', width: 'auto' }} />
                     </div>
                 </Link>
 
@@ -40,7 +40,7 @@ const Header: React.FC = () => {
                     <Link to="/about" onClick={() => setIsMenuOpen(false)} style={{ fontWeight: 600, textDecoration: 'none', color: 'inherit', fontSize: '18px' }}>About</Link>
                     <Link to="/mind" onClick={() => setIsMenuOpen(false)} style={{ fontWeight: 600, textDecoration: 'none', color: 'inherit', fontSize: '18px' }}>Mind</Link>
                     <Link to="/classes" onClick={() => setIsMenuOpen(false)} style={{ fontWeight: 600, textDecoration: 'none', color: 'inherit', fontSize: '18px' }}>Body</Link>
-                    <Link to="/team" onClick={() => setIsMenuOpen(false)} style={{ fontWeight: 600, textDecoration: 'none', color: 'inherit', fontSize: '18px' }}>Team</Link>
+
                     <Link to="/contact" onClick={() => setIsMenuOpen(false)} style={{ fontWeight: 600, textDecoration: 'none', color: 'inherit', fontSize: '18px' }}>Contact</Link>
 
                     <a
