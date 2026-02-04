@@ -18,7 +18,7 @@ import MeditationPage from './pages/MeditationPage';
 import BreathworkPage from './pages/BreathworkPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-import TeamPage from './pages/TeamPage';
+
 
 function App() {
   useEffect(() => {
@@ -41,7 +41,7 @@ function App() {
             <Route path="/mind/:id" element={<MindPracticeDetailPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
-            <Route path="/team" element={<TeamPage />} />
+
           </Routes>
         </main>
         <Footer />
