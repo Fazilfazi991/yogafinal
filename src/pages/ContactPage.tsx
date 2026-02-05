@@ -50,19 +50,7 @@ const ContactPage: React.FC = () => {
                             </h2>
 
                             <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
-                                <div style={{ display: 'flex', gap: '20px' }}>
-                                    <div style={{ width: '50px', height: '50px', backgroundColor: 'var(--bg-secondary)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '24px' }}>
-                                        📍
-                                    </div>
-                                    <div>
-                                        <h3 style={{ fontSize: '20px', marginBottom: '10px', color: 'var(--text-primary)' }}>Visit Us</h3>
-                                        <p style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
-                                            F-29, The Market Mall<br />
-                                            Green Community, Dubai Investment Park-1<br />
-                                            Dubai, UAE
-                                        </p>
-                                    </div>
-                                </div>
+
 
                                 <div style={{ display: 'flex', gap: '20px' }}>
                                     <div style={{ width: '50px', height: '50px', backgroundColor: 'var(--bg-secondary)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '24px' }}>
